@@ -1,0 +1,210 @@
+/* code which overrides core elements*/
+body {
+    background-color: rgb(0, 0, 255);
+    font-family: montserrat;
+}
+
+h6 {
+    margin-top: 0;
+    opacity: 0.5;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer h4 {
+    text-align: center;
+    margin: 20px 0;
+    opacity: 0.30;
+}
+
+header {
+    width: 100%;
+    height: 750px;
+    z-index: -20;
+}
+
+/* mobile styles */
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .mobile {
+    display: block;
+    }
+    header {
+        display: none;
+    }
+    body {
+        background-color: #fff !important;
+    }
+}
+
+/* main styles */
+.center-block > .row:after {
+    margin-bottom: 50px;
+
+}
+.browser {
+    background-color: rgba(52, 54, 62, 0.13);
+    padding-top: 23px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    height: 10px;
+}
+.bullets {
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.contact-button {
+    margin: 50px auto;
+    height: 70px;
+    display: inline-block;
+    background-color: #0000f9;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+    padding: 16px 30px;
+    color: #fff;
+}
+
+.center {
+    width: 100%;
+    margin: 150px auto;
+}
+
+.intro {
+    line-height: 160%;
+    font-size: 175%;
+    margin: 15% 5% 15% 5%;
+}
+.sun {
+    z-index: 10;
+    margin: 0 auto;
+    margin-top: -9%;
+    fill: RGB(255, 187, 0);
+    width: 430px;
+    height: 500px;
+}
+
+.float {
+    float: none;
+}
+
+.logo {
+    margin: 40px auto;
+    width: 300px;
+    display: block;
+}
+
+.menu {
+    padding: 25px 15px 0 0;
+    float: right;   
+    font-family: "montserrat";
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.menu ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style-type: none;
+}
+
+.menu a {
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu  a:hover {
+    border-bottom: 3px solid white;
+    transition: .3s;
+}
+
+.menu li {
+    display: inline;
+}
+
+.header-align {
+    position: absolute;
+    margin: auto;
+    top: -10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 850px;
+    height: 20%;
+    
+}
+
+.text-center {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.typography {
+    font-family: "montserrat";
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.divider {
+    background-color: #fff;
+    height: 10px;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 850px;
+    height: 6px;
+}
+
+.digital-adventures {
+    font-family: "montserrat", ;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 35px;
+    position: relative;
+    margin: 5px auto;
+    top: 55px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.down {
+    top: 30px;
+    margin: 0 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.up {
+    bottom: 30px;
+    margin: 0 40px;
+    position: relative;
+    display: inline-block;
+}
